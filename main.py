@@ -413,6 +413,16 @@ async def simple_demo(request: VideoRequest):
     
     return {"chapters": sample_chapters}
 
+
+@app.get("/test-transcript/{video_id}")
+def test_transcript(video_id: str):
+    try:
+        transcript = YouTubeTranscriptApi.get_transcript(video_id)
+        return transcript
+    except Exception as e:
+        return {"error": str(e)}
+
+
 @app.post("/api")
 async def api_endpoint(request: VideoRequest):
     """
