@@ -1,6 +1,6 @@
 # ChapterGenie
 
-A FastAPI backend service that generates chapter timestamps for YouTube videos using Google's Gemini AI. This project includes both a backend API and a frontend web application (Chapter Genie) for a complete user experience.
+ChapterGenie is a web-based tool that automatically generates timestamps (chapters) for YouTube videos using AI. By analyzing video transcripts, it identifies key moments and structures them into clear, clickable chapters, enhancing the viewing experience.
 
 ## Features
 
