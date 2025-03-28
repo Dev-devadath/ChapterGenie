@@ -1,4 +1,4 @@
-# YouTube Chapter Generator API
+# ChapterGenie
 
 A FastAPI backend service that generates chapter timestamps for YouTube videos using Google's Gemini AI. This project includes both a backend API and a frontend web application (Chapter Genie) for a complete user experience.
 
@@ -182,7 +182,7 @@ python test_api.py
 
 ## Contributors
 
-- Special thanks to [@neumaz66](https://github.com/neumaz66) for their valuable contributions to the project, including improvements to the AI prompt engineering and frontend UI enhancements.
+- Special thanks to [@neumaz66](https://github.com/neumaz66) for their valuable contributions to the project, including improvements frontend UI enhancements.
 
 ## License
 
